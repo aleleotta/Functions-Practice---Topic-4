@@ -1,6 +1,24 @@
 package exercise4;
 
 public class Operations {
+	int a, b;
+	
+	int sum() {
+		int result = a + b;
+		return result;
+	}
+	int sub() {
+		int result = a - b;
+		return result;
+	}
+	int mult() {
+		int result = a * b;
+		return result;
+	}
+	int div() {
+		int result = a / b;
+		return result;
+	}
 }
 /*Crea una clase denominada Operaciones, la cual va a contener una función no estática
  *por cada una de las operaciones básicas:
