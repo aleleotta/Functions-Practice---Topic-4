@@ -1,23 +1,23 @@
 package exercise4;
 
 public class Operations {
-	int a, b;
+	int a, b; //Global variables
 	
-	int sum() {
+	int sum() { //Sum functionality
 		int result = a + b;
-		return result;
+		return result; //Returns result of sum.
 	}
-	int sub() {
+	int sub() { //Subtraction functionality
 		int result = a - b;
-		return result;
+		return result; //Returns result of subtraction.
 	}
-	int mult() {
+	int mult() { //Multiplication functionality
 		int result = a * b;
-		return result;
+		return result; //Returns result of multiplication.
 	}
-	int div() {
+	int div() { //Division functionality
 		int result = a / b;
-		return result;
+		return result; //Returns result of division.
 	}
 }
 /*Crea una clase denominada Operaciones, la cual va a contener una función no estática

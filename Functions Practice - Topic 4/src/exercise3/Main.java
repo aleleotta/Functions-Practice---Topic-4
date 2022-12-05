@@ -3,11 +3,11 @@ import java.util.*;
 
 public class Main {
 	public static void main(String[] args) {
-		int option, a, b, c, d, e, f;
+		int option, a, b, c, d, e, f; //All the variables that are needed for each function.
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Select an option: ");
+		System.out.println("Select an option: "); //User choice
 		option = sc.nextInt();
-		switch(option) {
+		switch(option) { //Switch block begins.
 		case 1:
 			System.out.print("Introduce the quantity of digits to print: ");
 			a = sc.nextInt();

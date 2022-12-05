@@ -1,14 +1,14 @@
 package exercise2;
 
 public class Sphere {
-	static double surface(double radius) {
-		double surface = 4 * radius * 2;
-		return surface;
+	static double surface(double radius) { //Static function that calculates sphere surface.
+		double surface = 4 * radius * 2; //Operation
+		return surface; //Returns result of operation to main function.
 	}
 	
-	static double volume(double radius) {
-		double volume = (4/3) * radius * 2;
-		return volume;
+	static double volume(double radius) { //Static function that calculates sphere volume.
+		double volume = (4/3) * radius * 2; //Operation
+		return volume; //Returns result of operation to main function.
 	}
 }
 /*Crea una clase de nombre Esfera. Esta clase debe contener dos funciones estáticas que harán lo siguiente:
