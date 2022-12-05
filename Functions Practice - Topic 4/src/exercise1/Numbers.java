@@ -15,14 +15,13 @@ public class Numbers {
 		while (aux != 0){
             n = aux;
 			digits = aux % 10;
-            inverse = inverse * 10 + digits;
+			inverse = inverse * 10 + digits;
             aux = aux / 10;
             if (n == inverse) {
             	capicua = true;
             }
-            return capicua;
         }
-		
+		return capicua;
 	}
 }
 /*Crea una clase de nombre Numeros. Esta clase debe contener las siguientes dos funciones no estáticas:
